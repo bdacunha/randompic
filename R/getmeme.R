@@ -7,6 +7,6 @@
 #' @export
 getmeme <- function(x){
 	stopifnot(is.character(x))
-	x = paste(x, collapse="/")
+	x <-  paste(x, collapse ="/")
 	sprintf("![](http://dogr.io/%s.png)", x)
 }
