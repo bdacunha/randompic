@@ -2,9 +2,10 @@ Package: randompic
 Title: Inserts a random or cute pic
 Version: 0.0.0.9000
 Authors@R: person("Brenda", "DAcunha", email = "bdacunha@outlook.com", role = c("aut", "cre"))
-Description: Inserts the link of a picture when specifying the pixels.
-Depends:
+Description: Inserts the link of a picture when specifying the pixels and also gives the path to insert in a markdown file.
+Depends: 
     R (>= 3.2.2)
-License: What license is it under?
+License: MIT + file LICENSE
 LazyData: true
 RoxygenNote: 5.0.0
+Suggests: testthat
