@@ -24,3 +24,19 @@ getbears(200)
 And here is the image from the link
 
 ![](http://placebear.com/g/100/100)
+
+It's really easy to use the other functions as well:
+
+``` r
+getbacon(400)
+#> [1] "![](http://baconmockup.com/400/400)"
+```
+
+![](http://baconmockup.com/400/400/)
+
+``` r
+getmeme(c("wow", "soeasy", "greatfunction"))
+#> [1] "![](http://dogr.io/wow/soeasy/greatfunction.png)"
+```
+
+![](http://dogr.io/wow/soeasy/greatfunction.png)
