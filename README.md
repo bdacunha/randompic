@@ -3,7 +3,7 @@ This is the readme file for my R package called randompic
 
 ### About me:
 
-My name is Brenda D'Acunha and I'm currently taking the STAT547M class at UBC.
+My name is Brenda D'Acunha and I'm currently taking the STAT547M class at UBC as part of the coursework for the completion of my MSc in Geology.
 
 As part of this class, we had to create an R package, and well, here it's my baby!
 
@@ -17,8 +17,8 @@ Now here is an example of what my function does:
 
 ``` r
 library(randompic)
-getbears(100)
-#> [1] "![](http://placebear.com/g/100/100)"
+getbears(200)
+#> [1] "![](http://placebear.com/g/200/200)"
 ```
 
 And here is the image from the link

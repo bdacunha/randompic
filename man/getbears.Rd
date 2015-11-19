@@ -13,6 +13,6 @@ getbears(x)
 character
 }
 \description{
-getbears
+Places the link for a random picture of a bear or bears when specifying the height and width
 }
 
