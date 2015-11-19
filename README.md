@@ -1,6 +1,14 @@
-This is my package called randompic!
-====================================
+This is the readme file for my R package called randompic
+---------------------------------------------------------
 
-I got the idea for this package while surfing the web and encountered this site: ![Rforcats](http://rforcats.net)
+### About me:
 
-And then decided to create package that inserts random pictures everywhere! from bacon to bears, this will give you random links and in the size you want :)
+My name is Brenda D'Acunha and I'm currently taking the STAT547M class at UBC.
+
+As part of this class, we had to create an R package, and well, here it's my baby!
+
+### About randompic
+
+randompic is a package that will give you a link that takes you to a page with a random picture of a bear, or bacon, etc, and you can select the size of the picture you want.
+
+I got this idea after checking this site: [R for cats](http://rforcats.net)
