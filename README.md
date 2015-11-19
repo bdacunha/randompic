@@ -20,3 +20,7 @@ library(randompic)
 getbears(100)
 #> [1] "![](http://placebear.com/g/100/100)"
 ```
+
+And here is the image from the link
+
+![](http://placebear.com/g/100/100)
