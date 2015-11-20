@@ -1,5 +1,5 @@
 Package: randompic
-Title: Inserts a random or cute pic
+Title: Inserts a link of a random or cute pic
 Version: 0.0.0.9000
 Authors@R: person("Brenda", "DAcunha", email = "bdacunha@outlook.com", role = c("aut", "cre"))
 Description: Inserts the link of a picture when specifying the pixels and also gives the path to insert in a markdown file. It also allows to create a dogememe specifying the words
