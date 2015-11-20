@@ -56,7 +56,7 @@ Now here is an example of what my function getbears does:
 
 
 ```{r}
-getbears(200)
+getbears(200, 400)
 ```
 
 
@@ -73,7 +73,7 @@ For getbacon:
 
 
 ```{r}
-getbacon(400)
+getbacon(400, 500)
 ```
 
 
