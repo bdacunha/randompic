@@ -22,7 +22,7 @@ devtools::install_github("bdacunha/randompic")
 #> Installing randompic
 #> '/Library/Frameworks/R.framework/Resources/bin/R' --no-site-file  \
 #>   --no-environ --no-save --no-restore CMD INSTALL  \
-#>   '/private/var/folders/3b/gpvbsmfs7dl8q1vnz7tzhj0m0000gn/T/RtmpVawbWC/devtoolsbe207f7f15f9/bdacunha-randompic-ddf50e8'  \
+#>   '/private/var/folders/3b/gpvbsmfs7dl8q1vnz7tzhj0m0000gn/T/RtmpcrMzpr/devtoolsc21a40774da9/bdacunha-randompic-2e9d6a7'  \
 #>   --library='/Library/Frameworks/R.framework/Versions/3.2/Resources/library'  \
 #>   --install-tests
 library(randompic)
@@ -37,12 +37,13 @@ These are the functions that are included in the package:
 -   get\_random: let's you insert a link that contains a picture of a random animal with the specified width and height
 -   getmeme: let's you create a meme using the same picture (doge meme) but changing the words
 -   get\_beard: let's you insert a link that contains a picture of a bearded man with the specified width and height
+-   get\_zombies: let's you insert a link that contains a picture of zombies... but beware that you might get scared!
 
 Now here is an example of what my function getbears does:
 
 ``` r
-getbears(200)
-#> [1] "![](http://placebear.com/g/200/200)"
+getbears(200, 400)
+#> [1] "![](http://placebear.com/g/200/400)"
 ```
 
 And here is the image from the link
@@ -54,8 +55,8 @@ It's really easy to use the other functions as well:
 For getbacon:
 
 ``` r
-getbacon(400)
-#> [1] "![](http://baconmockup.com/400/400)"
+getbacon(400, 500)
+#> [1] "![](http://baconmockup.com/400/500)"
 ```
 
 ![](http://baconmockup.com/400/400/)

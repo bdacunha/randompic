@@ -49,6 +49,7 @@ These are the functions that are included in the package:
 + get_random: let's you insert a link that contains a picture of a random animal with the specified width and height
 + getmeme: let's you create a meme using the same picture (doge meme) but changing the words
 + get_beard: let's you insert a link that contains a picture of a bearded man with the specified width and height
++ get_zombies: let's you insert a link that contains a picture of zombies... but beware that you might get scared!
 
 
 Now here is an example of what my function getbears does:
