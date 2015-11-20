@@ -4,10 +4,12 @@
 \alias{get_random}
 \title{get_random}
 \usage{
-get_random(x)
+get_random(width, height)
 }
 \arguments{
-\item{x}{numeric}
+\item{width}{numeric}
+
+\item{height}{numeric}
 }
 \value{
 link
@@ -16,6 +18,6 @@ link
 Gets the link of a random animal
 }
 \examples{
-get_random(300)
+get_random(300, 300)
 }
 

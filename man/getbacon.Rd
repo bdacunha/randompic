@@ -4,18 +4,20 @@
 \alias{getbacon}
 \title{getbacon}
 \usage{
-getbacon(x)
+getbacon(width, height)
 }
 \arguments{
-\item{x}{numeric}
+\item{width}{numeric}
+
+\item{height}{numeric}
 }
 \value{
-character
+link character
 }
 \description{
 Places the link for a random picture of bacon when specifying the height and width
 }
 \examples{
-getbacon(300)
+getbacon(300, 400)
 }
 

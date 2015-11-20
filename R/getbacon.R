@@ -2,12 +2,14 @@
 #'
 #' Places the link for a random picture of bacon when specifying the height and width
 #'
-#' @param x numeric
-#' @return character
+#' @param width numeric
+#' @param height numeric
+#' @return link character
 #' @export
 #' @examples
-#' getbacon(300)
-getbacon <- function(x) {
-	stopifnot(is.numeric(x))
-	sprintf('![](http://baconmockup.com/%s/%s)', x, x)
+#' getbacon(300, 400)
+getbacon <- function(width, height) {
+	stopifnot(is.numeric(width))
+	stopifnot(is.numeric(height))
+	sprintf('![](http://baconmockup.com/%s/%s)', width, height)
 }

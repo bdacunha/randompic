@@ -2,13 +2,14 @@ context("checking the output for getbacon")
 
 test_that("the output is a character",
 {
-x <- 400
-expect_is(getbacon(x), "character")
+width <- 400
+height <- 300
+expect_is(getbacon(width, height), "character")
 })
 
 context("checking the input for getbacon")
 
 test_that("the input is numeric",
 {
-expect_error(getbacon("hola"))
+expect_error(getbacon("hola", "chau"))
 })

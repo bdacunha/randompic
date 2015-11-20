@@ -22,11 +22,21 @@ devtools::install_github("bdacunha/randompic")
 #> Installing randompic
 #> '/Library/Frameworks/R.framework/Resources/bin/R' --no-site-file  \
 #>   --no-environ --no-save --no-restore CMD INSTALL  \
-#>   '/private/var/folders/3b/gpvbsmfs7dl8q1vnz7tzhj0m0000gn/T/RtmpRd5EzH/devtoolsb028139da5d2/bdacunha-randompic-017a92e'  \
+#>   '/private/var/folders/3b/gpvbsmfs7dl8q1vnz7tzhj0m0000gn/T/RtmpVawbWC/devtoolsbe207f7f15f9/bdacunha-randompic-ddf50e8'  \
 #>   --library='/Library/Frameworks/R.framework/Versions/3.2/Resources/library'  \
 #>   --install-tests
 library(randompic)
 ```
+
+These are the functions that are included in the package:
+
+-   getbears: let's you insert a link that contains a picture of bears with the specified width and height
+-   getbacon: let's you insert a link that contains a picture of bacon with the specified width and height
+-   get\_corgi: let's you insert a link that contains a picture of a corgi with the specified width and height
+-   get\_kitty: let's you insert a link that contains a picture of cats with the specified width and height
+-   get\_random: let's you insert a link that contains a picture of a random animal with the specified width and height
+-   getmeme: let's you create a meme using the same picture (doge meme) but changing the words
+-   get\_beard: let's you insert a link that contains a picture of a bearded man with the specified width and height
 
 Now here is an example of what my function getbears does:
 

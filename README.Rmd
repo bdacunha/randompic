@@ -40,6 +40,16 @@ library(randompic)
 ```
 
 
+These are the functions that are included in the package:
+
++ getbears: let's you insert a link that contains a picture of bears with the specified width and height
++ getbacon: let's you insert a link that contains a picture of bacon with the specified width and height
++ get_corgi: let's you insert a link that contains a picture of a corgi with the specified width and height
++ get_kitty: let's you insert a link that contains a picture of cats with the specified width and height
++ get_random: let's you insert a link that contains a picture of a random animal with the specified width and height
++ getmeme: let's you create a meme using the same picture (doge meme) but changing the words
++ get_beard: let's you insert a link that contains a picture of a bearded man with the specified width and height
+
 
 Now here is an example of what my function getbears does:
 

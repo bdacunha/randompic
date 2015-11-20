@@ -1,4 +1,4 @@
-context("checking the output for get_random")
+context("checking the output for get_corgi")
 
 test_that("the output is a character",
 {
@@ -7,9 +7,9 @@ height <- 500
 expect_is(get_random(width, height), "character")
 })
 
-context("checking the input for get_random")
+context("checking the input for get_corgi")
 
 test_that("the input is numeric",
 {
-expect_error(get_random("human"))
+expect_error(get_random("human", "animal"))
 })

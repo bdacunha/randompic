@@ -2,12 +2,14 @@
 #'
 #' Gets the link of a random animal
 #'
-#' @param x numeric
+#' @param width numeric
+#' @param height numeric
 #' @return link
 #' @export
 #' @examples
-#' get_random(300)
-get_random <- function(x){
-	stopifnot(is.numeric(x))
-	sprintf("![](http://placecreature.com/g/%s/%s)", x, x)
+#' get_random(300, 300)
+get_random <- function(width, height){
+	stopifnot(is.numeric(width))
+	stopifnot(is.numeric(height))
+	sprintf("![](http://placecreature.com/%s/%s)", width, height)
 }

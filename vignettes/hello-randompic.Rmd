@@ -23,14 +23,14 @@ Now here is an example of what my function does:
 
 ```{r}
 library(randompic)
-getbears(200)
+getbears(200, 300)
 ```
 
 
 And here is the image from the link
 
 
-![](http://placebear.com/g/100/100)
+![](http://placebear.com/g/200/300)
 
 
 We can also create a dogememe:

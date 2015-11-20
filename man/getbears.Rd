@@ -4,18 +4,20 @@
 \alias{getbears}
 \title{getbears}
 \usage{
-getbears(x)
+getbears(width, height)
 }
 \arguments{
-\item{x}{numeric}
+\item{width}{numeric}
+
+\item{height}{numeric}
 }
 \value{
-character
+link character
 }
 \description{
 Places the link for a random picture of a bear or bears when specifying the height and width
 }
 \examples{
-getbears(500)
+getbears(500, 600)
 }
 
