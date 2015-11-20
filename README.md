@@ -13,10 +13,24 @@ randompic is a package that will give you a link that takes you to a page with a
 
 I got this idea after checking this site: [R for cats](http://rforcats.net)
 
-Now here is an example of what my functions do:
+To install the package:
 
 ``` r
+devtools::install_github("bdacunha/randompic")
+#> Using github PAT from envvar GITHUB_PAT
+#> Downloading GitHub repo bdacunha/randompic@master
+#> Installing randompic
+#> '/Library/Frameworks/R.framework/Resources/bin/R' --no-site-file  \
+#>   --no-environ --no-save --no-restore CMD INSTALL  \
+#>   '/private/var/folders/3b/gpvbsmfs7dl8q1vnz7tzhj0m0000gn/T/RtmpRd5EzH/devtoolsb028139da5d2/bdacunha-randompic-017a92e'  \
+#>   --library='/Library/Frameworks/R.framework/Versions/3.2/Resources/library'  \
+#>   --install-tests
 library(randompic)
+```
+
+Now here is an example of what my function getbears does:
+
+``` r
 getbears(200)
 #> [1] "![](http://placebear.com/g/200/200)"
 ```
@@ -36,7 +50,7 @@ getbacon(400)
 
 ![](http://baconmockup.com/400/400/)
 
-If we want a meme:
+If we want a meme we use getmeme:
 
 ``` r
 getmeme(c("wow", "soeasy", "greatfunction"))

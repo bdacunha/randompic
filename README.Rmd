@@ -32,12 +32,19 @@ randompic is a package that will give you a link that takes you to a page with a
 
 I got this idea after checking this site: [R for cats](http://rforcats.net)
 
+To install the package:
 
-Now here is an example of what my functions do:
+```{r}
+devtools::install_github("bdacunha/randompic")
+library(randompic)
+```
+
+
+
+Now here is an example of what my function getbears does:
 
 
 ```{r}
-library(randompic)
 getbears(200)
 ```
 
@@ -62,7 +69,7 @@ getbacon(400)
 ![](http://baconmockup.com/400/400/)
 
 
-If we want a meme:
+If we want a meme we use getmeme:
 
 
 ```{r}
