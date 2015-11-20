@@ -5,6 +5,8 @@
 #' @param x numeric
 #' @return character
 #' @export
+#' @examples
+#' getbacon(300)
 getbacon <- function(x) {
 	stopifnot(is.numeric(x))
 	sprintf('![](http://baconmockup.com/%s/%s)', x, x)

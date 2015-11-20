@@ -15,4 +15,7 @@ doge meme
 \description{
 Gets the link for a doge meme in which you can change the words. Just input three words and the meme will be generated
 }
+\examples{
+getmeme(c("wow", "nice", "function"))
+}
 

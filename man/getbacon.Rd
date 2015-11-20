@@ -15,4 +15,7 @@ character
 \description{
 Places the link for a random picture of bacon when specifying the height and width
 }
+\examples{
+getbacon(300)
+}
 

@@ -5,6 +5,8 @@
 #' @param x words for the meme generator
 #' @return doge meme
 #' @export
+#' @examples
+#' getmeme(c("wow", "nice", "function"))
 getmeme <- function(x){
 	stopifnot(is.character(x))
 	x <-  paste(x, collapse ="/")
