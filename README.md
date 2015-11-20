@@ -7,7 +7,7 @@ My name is Brenda D'Acunha and I'm currently taking the STAT547M class at UBC as
 
 As part of this class, we had to create an R package, and well, here it's my baby!
 
-### About randompic
+### About randompic:
 
 randompic is a package that will give you a link that takes you to a page with a random picture of a bear, or bacon, etc, and you can select the size of the picture you want. It can also generate a doge meme link, you just have to type the words that you want to appear on the meme.
 
@@ -22,7 +22,7 @@ devtools::install_github("bdacunha/randompic")
 #> Installing randompic
 #> '/Library/Frameworks/R.framework/Resources/bin/R' --no-site-file  \
 #>   --no-environ --no-save --no-restore CMD INSTALL  \
-#>   '/private/var/folders/3b/gpvbsmfs7dl8q1vnz7tzhj0m0000gn/T/RtmpcrMzpr/devtoolsc21a40774da9/bdacunha-randompic-2e9d6a7'  \
+#>   '/private/var/folders/3b/gpvbsmfs7dl8q1vnz7tzhj0m0000gn/T/Rtmp02bdIV/devtoolsc40c2783c2f7/bdacunha-randompic-ad0d71c'  \
 #>   --library='/Library/Frameworks/R.framework/Versions/3.2/Resources/library'  \
 #>   --install-tests
 library(randompic)

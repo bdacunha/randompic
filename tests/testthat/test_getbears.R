@@ -11,5 +11,12 @@ context("checking the input for getbears")
 
 test_that("the input is numeric",
 {
-expect_error(getbears("sweet", "bacon"))
+expect_error(getbears("cute", "bears"))
+})
+
+context("checking the input for getbears")
+
+test_that("the input is bigger than 0",
+{
+expect_error(getbears(0, 0))
 })

@@ -11,5 +11,7 @@
 get_kitty <- function(width, height) {
 	stopifnot(is.numeric(width))
 	stopifnot(is.numeric(height))
+	stopifnot(width > 0)
+	stopifnot(height > 0)
 	sprintf("![](http://placekitten.com/%s/%s)", width, height)
 }

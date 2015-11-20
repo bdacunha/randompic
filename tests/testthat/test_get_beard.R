@@ -13,3 +13,10 @@ test_that("the input is numeric",
 {
 expect_error(get_beard("mybeard", "iscool"))
 })
+
+context("checking the input for get_zombies")
+
+test_that("the input is bigger than 0",
+{
+expect_error(get_zombies(0, 0))
+})

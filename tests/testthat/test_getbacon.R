@@ -13,3 +13,10 @@ test_that("the input is numeric",
 {
 expect_error(getbacon("hola", "chau"))
 })
+
+context("checking the input for getbacon")
+
+test_that("the input is bigger than 0",
+{
+expect_error(getbacon(0, 0))
+})

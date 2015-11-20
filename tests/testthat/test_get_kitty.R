@@ -13,3 +13,10 @@ test_that("the input is numeric",
 {
 expect_error(get_kitty("human"))
 })
+
+context("checking the input for get_kitty")
+
+test_that("the input is bigger than 0",
+{
+expect_error(get_kitty(0, 0))
+})

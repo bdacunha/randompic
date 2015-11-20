@@ -24,7 +24,7 @@ My name is Brenda D'Acunha and I'm currently taking the STAT547M class at UBC as
 As part of this class, we had to create an R package, and well, here it's my baby!
 
 
-###About randompic
+###About randompic:
 
 
 randompic is a package that will give you a link that takes you to a page with a random picture of a bear, or bacon, etc, and you can select the size of the picture you want. It can also generate a doge meme link, you just have to type the words that you want to appear on the meme.

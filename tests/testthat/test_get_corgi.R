@@ -13,3 +13,10 @@ test_that("the input is numeric",
 {
 expect_error(get_random("human", "animal"))
 })
+
+context("checking the input for get_corgi")
+
+test_that("the input is bigger than 0",
+{
+expect_error(get_zombies(0, 0))
+})

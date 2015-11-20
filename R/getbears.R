@@ -11,5 +11,7 @@
 getbears <- function(width, height){
 	stopifnot(is.numeric(width))
 	stopifnot(is.numeric(height))
+	stopifnot(width > 0)
+	stopifnot(height > 0)
 	sprintf("![](http://placebear.com/g/%s/%s)", width, height)
 }
