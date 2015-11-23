@@ -12,32 +12,68 @@ vignette: >
 ###About randompic
 
 
-randompic is a package that will give you a link that takes you to a page with a random picture of a bear, or bacon, etc, and you can select the size of the picture you want.
+randompic is a package that will give you a link that takes you to a page with a random picture of a bear, or bacon, etc, and you can select the size of the picture you want. It can also generate a doge meme link, you just have to type the words that you want to appear on the meme.
 
 
 I got this idea after checking this site: [R for cats](http://rforcats.net)
 
+To install the package:
 
-Now here is an example of what my function does:
+```{r}
+devtools::install_github("bdacunha/randompic")
+library(randompic)
+```
+
+
+These are the functions that are included in the package:
+
++ getbears: let's you insert a link that contains a picture of bears with the specified width and height
++ getbacon: let's you insert a link that contains a picture of bacon with the specified width and height
++ get_corgi: let's you insert a link that contains a picture of a corgi with the specified width and height
++ get_kitty: let's you insert a link that contains a picture of cats with the specified width and height
++ get_random: let's you insert a link that contains a picture of a random animal with the specified width and height
++ getmeme: let's you create a meme using the same picture (doge meme) but changing the words
++ get_beard: let's you insert a link that contains a picture of a bearded man with the specified width and height
++ get_zombies: let's you insert a link that contains a picture of zombies... but beware that you might get scared!
+
+
+Now here is an example of what my function getbears does:
 
 
 ```{r}
-library(randompic)
-getbears(200, 300)
+getbears(200, 400)
 ```
 
 
 And here is the image from the link
 
 
-![](http://placebear.com/g/200/300)
+![](http://placebear.com/g/100/100)
 
 
-We can also create a dogememe:
+It's really easy to use the other functions as well:
+
+
+For getbacon: 
+
 
 ```{r}
-getmeme(c("wow", "greatwork", "lovelyhomework"))
+getbacon(400, 500)
 ```
 
 
-![](http://dogr.io/wow/greatwork/lovelyhomework.png)
+![](http://baconmockup.com/400/400/)
+
+
+If we want a meme we use getmeme:
+
+
+```{r}
+getmeme(c("wow", "soeasy", "greatjob"))
+```
+
+
+![](http://dogr.io/wow/soeasy/greatjob.png)
+
+
+randompic is a fun and layback package that will help you entertain yourself and others
